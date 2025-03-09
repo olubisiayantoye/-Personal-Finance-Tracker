@@ -18,3 +18,39 @@ Extras (for Bonus Points)
 🔹 PWA Support – Make it work offline and installable.
 🔹 Multi-Currency Support – Allow users to track finances in different currencies.
 🔹 Dark Mode & UI Enhancements – Improve UX/UI to stand out.
+
+
+
+personal-finance-tracker/
+│── controllers/        # Handles business logic
+│   ├── authController.js
+│   ├── transactionController.js
+│   ├── reportController.js
+│
+│── models/             # Database models
+│   ├── userModel.js
+│   ├── transactionModel.js
+│
+│── routes/             # Defines API routes
+│   ├── authRoutes.js
+│   ├── transactionRoutes.js
+│   ├── reportRoutes.js
+│
+│── views/              # EJS templates for UI
+│   ├── layouts/
+│   ├── home.ejs
+│   ├── dashboard.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│
+│── public/             # Static files (CSS, JS)
+│   ├── css/
+│   ├── js/
+│
+│── config/             # Supabase configuration
+│   ├── supabaseClient.js
+│
+│── middleware/         # Authentication middleware
+│── app.js              # Main entry point
+│── package.json        # Dependencies
+│── .env                # Environment variables
